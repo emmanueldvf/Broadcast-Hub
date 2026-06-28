@@ -1,0 +1,82 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0b1120;
+    color:white;
+    line-height:1.6;
+}
+
+section{
+    width:85%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.hero{
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#111827,#1e293b);
+    text-align:center;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#ff8c00;
+}
+
+.hero h2{
+    margin:15px 0;
+}
+
+h2{
+    color:#ff8c00;
+    margin-bottom:20px;
+}
+
+.skill-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.skill-grid div{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+}
+
+.job{
+    background:#1e293b;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#111827;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:35px;
+    }
+
+    .skill-grid{
+        grid-template-columns:1fr;
+    }
+}
+

@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>Broadcast Maintenance Request</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+ <header class="topbar">
+
+  <div>
+    <h1>Broadcast Engineering Portal</h1>
+    <p>Professional Radio & TV Technical Support</p>
+  </div>
+
+</header>
+
+
+  <div class="request-wrapper">
+
+    <div class="request-image">
+
+      <h2>Professional Broadcast Support</h2>
+
+      <p>
+        Radio and TV station maintenance,
+        studio installation, engineering support,
+        and technical services.
+      </p>
+
+    </div>
+
+
+
+    <div class="request-card">
+
+      <h2>Request Maintenance</h2>
+
+      <form id="serviceForm">
+
+        <input
+          type="text"
+          id="company"
+          placeholder="Company Name"
+          required>
+
+       
+<select id="type" required>
+
+  <option value="">
+    Select Station Type
+  </option>
+
+  <option value="Radio Station">
+    Radio Station
+  </option>
+
+  <option value="TV Station">
+    TV Station
+  </option>
+
+</select>
+
+        <textarea
+          id="problem"
+          placeholder="Describe the problem"
+          required></textarea>
+
+        <input
+          type="text"
+          id="location"
+          placeholder="Location"
+          required>
+
+        <input
+          type="text"
+          id="phone"
+          placeholder="Phone Number"
+          required>
+
+        <button type="submit">
+
+          Submit Request
+
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
